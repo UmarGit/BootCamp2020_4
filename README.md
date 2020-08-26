@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Corona Virus Tracker Application
+
+**Special thanks to panacloud team and Sir ZIA KHAN**
+
 ## Available Scripts
 
 In the project directory, you can run:

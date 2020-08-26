@@ -1,0 +1,61 @@
+*{
+    --cal-total-paper-height: (96px*4)
+}
+.root{
+    color: blue;
+    width: 90%;
+    margin: 80px auto;
+}
+.paper{
+    padding: 10px 0px 10px 0px;
+    border-radius: 0px;
+    text-align: left;
+    height: 84px;
+    border: 1px solid lightgrey;
+}
+.paper:hover .infoNumber{
+    border-left: 4px solid green;
+    transition: all 0.4s ease-in-out;
+}
+.chart{
+    padding: 18px;
+    text-align: center;
+    border-radius: 0px;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    height: calc((var(--cal-total-paper-height)));
+}
+.chart:hover{
+    border-right: 4px solid green;
+    border-bottom: 4px solid green;
+    transition: all 0.4s ease-in-out;
+}
+.chart > canvas{
+    max-height: 340px;
+    min-height: 240px;
+}
+.infoNumber{
+    padding: 10px;
+    border-left: 4px solid transparent;
+    transition: all 0.4s ease-in-out;
+}
+.active{
+    color: rgba(100, 100, 255, 1);
+}
+.recovered{
+    color: rgba(100, 255, 100, 1);
+}
+.deaths{
+    color: rgba(255, 100, 100, 1);
+}
+.infected-countries{
+    color: grey
+}
+.foot{
+    text-align: center;
+    font-weight: bold;
+}
+.foot a{
+    text-decoration: 1px rgba(0, 0, 0, 0.87) solid;
+    color: rgba(0, 0, 0, 0.87);
+}
