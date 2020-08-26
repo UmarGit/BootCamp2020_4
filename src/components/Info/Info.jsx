@@ -99,7 +99,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate }, dailydata, s
                         <Paper elevation={0} className="paper">
                             <div className="infoNumber">
                                 <Typography variant="caption" display="block" gutterBottom>
-                                    <b>ACTIVE CASES (<small>{new Date(lastUpdate).toDateString()}</small>)</b>
+                                    <b>TOTAL CASES (<small>{new Date(lastUpdate).toDateString()}</small>)</b>
                                 </Typography>
                                 <Typography className="active" variant="h5" gutterBottom>
                                     <b>{confirmed.value}</b>
